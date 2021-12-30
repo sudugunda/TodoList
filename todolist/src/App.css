@@ -1,0 +1,93 @@
+.app {
+  display: flex;
+  width: 100vw;
+  min-width: 300px;
+  margin: auto;
+  height: 100vh;
+  background-color: rgb(116, 116, 192);
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px;
+  height: 70vh;
+  outline: 1px solid #000;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding-top: 50px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 1px #000;
+}
+
+h1{
+  background-color: rgb(74, 74, 179);
+  text-align: center;
+  color: #fff;
+}
+
+.input-box{
+  display: flex;
+  width: 80%;
+  height: 40px;
+  margin: 50px auto;
+}
+
+.input-box > input{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  flex: 1;
+  padding: 0 5px;
+  color: blueviolet;
+}
+
+.input-box > button{
+  padding: 5px;
+  font-size: 30px;
+  background-color: transparent;
+  outline: none;
+  margin-left: 10px;
+  border: none;
+  display: flex;
+}
+
+.todo-list{
+  width: 95%;
+  margin: 0 auto;
+  height: fit-content;
+  color: blueviolet;
+}
+
+.btn-icon{
+  color: rgb(74, 74, 179);
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  color: rgb(28, 45, 56);
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* outline: 1px solid #000; */
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.list-item{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.list-item > *{
+  flex: 0.1;
+}
+
+.list-item > div  {
+  flex: 0.7;
+}
